@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+#cartão{
+    background-image:url(./Imagens/backgorund.png);
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+#insta{
+    list-style-image: url(./Imagens/instagram.png);
+    font-family: 'Roboto Mono', monospace;
+}
+
+#tt{
+    list-style-image: url(./Imagens/twitter.png);
+    font-family: 'Roboto Mono', monospace;
+}
+
+#git{
+    list-style-image: url(./imagens/github.png);
+    font-family: 'Roboto Mono', monospace;
+}

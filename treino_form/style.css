@@ -67,3 +67,8 @@ input{
     width: 30px;
     margin-right: 15px;
 }
+
+.icon:hover{
+    width: 40px;
+    transition: 0.2s; /* diz quanto tempo a transição, para 40px, deve durar */
+}

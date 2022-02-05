@@ -72,3 +72,45 @@ input{
     width: 40px;
     transition: 0.2s;
 }
+
+@media screen and (max-width: 1000px){
+
+    form{
+        text-align: center;
+    }
+
+   #search{
+        text-align: center;
+    }
+
+    #submit{
+        float: none;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    #conteiner-form{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .icon{
+        filter: invert(100);
+    }
+}
+
+@media screen and (max-width: 578px){
+    #conteiner-form{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 1.71rem;
+    }
+}

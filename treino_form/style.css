@@ -40,7 +40,11 @@ h1{
     width: 80%;
     margin-top: 15px;
     padding: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
+}
+
+#search::placeholder{
+    color: black;
 }
 
 #submit{
@@ -49,11 +53,14 @@ h1{
     float: right;
     margin-top: 15px;
     cursor: pointer;
+    font-weight: 400;
 }
 
 input{
     border: none;
     outline: 0;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
 }
 
 #links{
@@ -71,6 +78,10 @@ input{
 .icon:hover{
     width: 40px;
     transition: 0.2s;
+}
+
+.insta{
+    margin-left: 15px;
 }
 
 @media screen and (max-width: 1000px){
@@ -112,5 +123,11 @@ input{
 
     h1{
         font-size: 1.71rem;
+    }
+}
+
+@media screen and (max-width: 373px){
+    h1{
+        line-height: 23px;
     }
 }
